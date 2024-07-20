@@ -40,14 +40,6 @@ const AboutSection = () => {
               based in Singapore.
             </p>
             <br />
-            <p>
-              I am currently pursuing a Bachelor of Computing in Computer Science at the National University of Singapore (NUS), with an expected graduation in 2026. My coursework includes Algorithms, AI, Machine Learning, Software Engineering, Linear Algebra, and Discrete Math. I also serve as a Teaching Assistant for Data Structures and Algorithms (CS2040).
-            </p>
-            <br />
-            <p>
-              I have a diverse professional background, having worked as a Fullstack Developer at Arrowster in Vietnam and QUBER in South Korea. At Arrowster, I created dynamic web pages using HTML, CSS, and Bootstrap, automated QA testing with Selenium and Python, resolved critical issues in Vue.js, and improved application performance through load testing with JMeter. At QUBER, I developed a comprehensive Android scheduler and memo app, and integrated an AI chatbot to enhance user experience.
-            </p>
-            <br />
           
             <p>
               I am committed to continuous learning and improvement, always seeking out new challenges and opportunities to expand my skills. My passion for technology drives me to explore innovative solutions and stay at the forefront of industry developments. I look forward to leveraging my expertise in exciting and impactful projects, and I am eager to collaborate with like-minded professionals to achieve great things.
