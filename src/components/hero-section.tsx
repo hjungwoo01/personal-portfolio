@@ -1,4 +1,4 @@
-"use client"; // this is a client component
+"use client";
 import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
@@ -32,7 +32,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3"
+            className="text-neutral-100 font-semibold px-6 py-3 cursor-pointer"
             style={{ backgroundColor: "#3CB043", borderRadius: '0.5rem', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}
             activeClass="active"
             spy={true}
@@ -52,8 +52,9 @@ const HeroSection = () => {
           smooth={true}
           offset={-100}
           duration={500}
+          className="cursor-pointer"
         >
-          <HiArrowDown size={35} className="animate-bounce" style={{ color: "#3CB043"}} />
+          <HiArrowDown size={35} className="animate-bounce" style={{ color: "#3CB043" }} />
         </Link>
       </div>
     </section>
