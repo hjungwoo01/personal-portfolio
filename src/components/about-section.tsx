@@ -2,17 +2,21 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
+  { skill: "Java" },
+  { skill: "Python" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
+  { skill: "HTML/CSS" },
   { skill: "React" },
   { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "Flutter" },
+  { skill: "Spring Boot" },
+  { skill: "Firebase" },
   { skill: "Git" },
-  { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
+  { skill: "Selenium" },
+  { skill: "Vue.js" },
+  { skill: "SQL" },
 ]
 
 const AboutSection = () => {
@@ -30,35 +34,24 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Jay and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in Singapore.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I am currently pursuing a Bachelor of Computing in Computer Science at the National University of Singapore (NUS), with an expected graduation in 2026. My coursework includes Algorithms, AI, Machine Learning, Software Engineering, Linear Algebra, and Discrete Math. I also serve as a Teaching Assistant for Data Structures and Algorithms (CS2040).
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              I have a diverse professional background, having worked as a Fullstack Developer at Arrowster in Vietnam and QUBER in South Korea. At Arrowster, I created dynamic web pages using HTML, CSS, and Bootstrap, automated QA testing with Selenium and Python, resolved critical issues in Vue.js, and improved application performance through load testing with JMeter. At QUBER, I developed a comprehensive Android scheduler and memo app, and integrated an AI chatbot to enhance user experience.
             </p>
             <br />
+          
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I am committed to continuous learning and improvement, always seeking out new challenges and opportunities to expand my skills. My passion for technology drives me to explore innovative solutions and stay at the forefront of industry developments. I look forward to leveraging my expertise in exciting and impactful projects, and I am eager to collaborate with like-minded professionals to achieve great things.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -75,13 +68,7 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <Image
-              src="/hero-image.png"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
+            
           </div>
         </div>
       </div>
