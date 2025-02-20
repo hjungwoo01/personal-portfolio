@@ -17,7 +17,7 @@ const projects = [
     description:
       "Expense Tracker is a user-friendly application designed for managing and visualizing personal expenses. It features robust JWT authentication and Google OAuth integration, allowing secure access and login. The backend, built with Node.js and Express, handles CRUD operations for expenses and categories through RESTful APIs. The responsive UI, developed with React, Redux, and Material-UI, ensures a seamless user experience.",
     image: "/expense-tracker.png",
-    github: "https://github.com/hjungwoo01/expense-tracker",
+    github: "https://github.com/hjungwoo01/expense_tracker",
   },
   {
     name: "Todo App",
@@ -31,7 +31,7 @@ const projects = [
     description:
       "Weavin is a social platform tailored for NUS students, featuring forums, a GPA calculator, and more. The frontend is built with Flutter, while the backend is powered by Java Spring Boot and Firebase. The project includes Firebase authentication and backend setup, and covers the development of three key application pages, enhancing the student community experience.",
     image: "/weavin.png",
-    github: "https://github.com/yourusername/weavin",
+    github: "https://github.com/hjungwoo01/weavin",
   },
   {
     name: "AB3-17",
