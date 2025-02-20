@@ -7,7 +7,7 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto bg-gray-300 border-0"></hr>
       <div className="flex flex-col items-center justify-between mt-4 md:flex-row text-gray-700">
         <div className="flex flex-row items-center space-x-1 text-gray-600 dark:text-gray-300">
-          <span>© 2024 Jay Hong</span>
+          <span>© 2025 Jay Hong</span>
           <a href="/" className="hover:underline">
             Portfolio
           </a>
