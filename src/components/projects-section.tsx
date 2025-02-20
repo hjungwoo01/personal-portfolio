@@ -27,13 +27,6 @@ const projects = [
     github: "https://github.com/hjungwoo01/laravel-todo-app",
   },
   {
-    name: "Weavin",
-    description:
-      "Weavin is a social platform tailored for NUS students, featuring forums, a GPA calculator, and more. The frontend is built with Flutter, while the backend is powered by Java Spring Boot and Firebase. The project includes Firebase authentication and backend setup, and covers the development of three key application pages, enhancing the student community experience.",
-    image: "/weavin.png",
-    github: "https://github.com/hjungwoo01/weavin",
-  },
-  {
     name: "AB3-17",
     description:
       "AB3-17 is a project developed as part of NUS CS2103R to assist in migrating code from Java 11 to Java 17. This migration project ensures compatibility and future-proofing for students enrolled in CS2103/T. The effort involved updating the codebase and dependencies to leverage the features and improvements of Java 17.",
